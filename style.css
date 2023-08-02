@@ -7,7 +7,6 @@
 body{
 
     background: linear-gradient(black , rgb(4, 61, 84));
-    
 }
 
 .main{
@@ -23,8 +22,7 @@ body{
 
 
 .container{
-
-position: absolute;
+    position: absolute;
     display: flex;
     padding: 10px;
     height: auto;
@@ -45,7 +43,6 @@ h2{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
 
 .Username{
     margin: 15px auto;
