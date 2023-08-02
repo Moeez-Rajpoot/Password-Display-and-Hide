@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background: linear-gradient(black , rgb(4, 61, 84));
+    
+}
+
+.main{
+
+    position: relative;
+    display: flex;
+    margin: 90px auto;
+    height: 600px;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+
+position: absolute;
+    display: flex;
+    padding: 10px;
+    height: auto;
+    width: 500px;
+    justify-content: center;
+    background:linear-gradient(130deg ,#01497271 , #a0eacfb5);
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 50px;
+
+}
+
+h2{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.Username{
+    margin: 15px auto;
+    position: relative;
+    max-width: auto;
+    min-width: 300px;
+
+
+}
+
+.Pass{
+    margin: 20px auto;
+    position: relative;
+    max-width: auto;
+    min-width: 300px;
+    border-radius: 20px;
+    border: 2px solid black;
+    border-color: rgb(255, 255, 255);
+
+}
+.Pass i{
+
+    color: white;
+}
+
+
+.Username input:focus~label,  .Username input:valid~label  , .Pass input:focus~label , .Pass input:valid~label {
+    display: none;
+  }
+
+
+.Username input:hover, .Pass input:hover {
+
+    border-color: rgb(77, 153, 164);
+} 
+
+.Username input{
+
+    padding: 15px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-color: rgb(255, 255, 255);
+    outline: none;
+    color: white;
+    font-size: 16px;
+}
+
+.Username label{
+
+    position: absolute;
+    top: 50%;    
+    left: 20px;
+    transform: translateY(-50%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;  
+
+}
+
+.Pass input{
+
+    padding: 15px;
+    width: 90%;
+    border-radius: 20px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+
+.Pass label{
+
+    position: absolute;
+    top: 50%;    
+    left: 20px;
+    transform: translateY(-50%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;  
+    transition: .5s ease;
+}
+
+
+.btns{
+
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+.btns button{
+
+    padding: 10px;
+    border-radius: 20px;
+    width: 300px;
+    outline: none;
+    border: none;
+    height: 50px;
+    max-width: auto;
+    min-width: auto;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+.btns button:hover{
+
+    
+    background-color: rgb(4, 61, 84);
+    color: rgb(255, 255, 255);
+
+}
+
+.links a{
+
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.links a:nth-child(2){
+
+    margin-top: 0px;
+    float: right;
+}
+
+.links a:hover{
+    text-decoration: underline;
+}
